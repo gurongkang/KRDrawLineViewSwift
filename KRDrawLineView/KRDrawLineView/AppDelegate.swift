@@ -5,23 +5,6 @@
 //  Created by RK on 2017/12/31.
 //  Copyright © 2017年 RK. All rights reserved.
 //
-
-
-//var window: UIWindow?
-//var viewController: UIViewController?
-//
-//func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-//    // Override point for customization after application launch.
-//    self.window = UIWindow.init(frame: UIScreen.main.bounds)
-//    let vc = ViewController()
-//    self.viewController = vc
-//    self.window?.rootViewController = self.viewController
-//    self.window?.makeKeyAndVisible()
-//    return true
-//}
-//
-
-
 import UIKit
 
 @UIApplicationMain

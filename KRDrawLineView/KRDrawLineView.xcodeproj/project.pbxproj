@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54375CA7200FA1F600898952 /* KRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54375CA6200FA1F600898952 /* KRCodeViewController.swift */; };
 		5492A79C20014713006693E3 /* KRDrawLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5492A79B20014713006693E3 /* KRDrawLineView.swift */; };
 		5492E7D71FF7FB2200D0E169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5492E7D61FF7FB2200D0E169 /* AppDelegate.swift */; };
 		5492E7D91FF7FB2200D0E169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5492E7D81FF7FB2200D0E169 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54375CA6200FA1F600898952 /* KRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRCodeViewController.swift; sourceTree = "<group>"; };
 		5492A79B20014713006693E3 /* KRDrawLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRDrawLineView.swift; sourceTree = "<group>"; };
 		5492E7D31FF7FB2200D0E169 /* KRDrawLineView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRDrawLineView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5492E7D61FF7FB2200D0E169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54375CA5200FA1D900898952 /* TestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				54375CA6200FA1F600898952 /* KRCodeViewController.swift */,
+			);
+			path = TestViewController;
+			sourceTree = "<group>";
+		};
 		5492A79A200146CB006693E3 /* DrawLineView */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 		5492E7D51FF7FB2200D0E169 /* KRDrawLineView */ = {
 			isa = PBXGroup;
 			children = (
+				54375CA5200FA1D900898952 /* TestViewController */,
 				5492A79A200146CB006693E3 /* DrawLineView */,
 				5492E7D61FF7FB2200D0E169 /* AppDelegate.swift */,
 				5492E7D81FF7FB2200D0E169 /* ViewController.swift */,
@@ -275,6 +286,7 @@
 			files = (
 				5492E8051FF7FB3600D0E169 /* KRRootViewController.swift in Sources */,
 				5492A79C20014713006693E3 /* KRDrawLineView.swift in Sources */,
+				54375CA7200FA1F600898952 /* KRCodeViewController.swift in Sources */,
 				5492E7D91FF7FB2200D0E169 /* ViewController.swift in Sources */,
 				5492E7D71FF7FB2200D0E169 /* AppDelegate.swift in Sources */,
 			);
