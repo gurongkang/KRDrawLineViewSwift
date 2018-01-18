@@ -51,11 +51,11 @@ class KRRootViewController: UIViewController, UITableViewDelegate, UITableViewDa
             cell.textLabel?.text = "代码中用 KRDrawLineView";
         }
         
-        if (indexPath.row == 2) {
+        if (indexPath.row == 1) {
             cell.textLabel?.text = "xib中用 KRDrawLineView";
         }
         
-        if (indexPath.row == 3) {
+        if (indexPath.row == 2) {
             cell.textLabel?.text = "添加分割线类Demo";
         }
         

@@ -74,12 +74,12 @@ class KRDrawLineView: UIView {
         var endPoint:CGPoint?
         
         if (VIEW_HEIGHT > VIEW_WIDTH) {
-            startPoint = CGPoint.init(x: VIEW_WIDTH/2 -  adjustPixelOffset, y:paddingStart)
+            startPoint = CGPoint.init(x: VIEW_WIDTH / 2 -  adjustPixelOffset, y: paddingStart)
             endPoint = CGPoint.init(x: VIEW_WIDTH / 2 - adjustPixelOffset, y: VIEW_HEIGHT - paddingEnd)
         } else {
             if (isBottomLine) {
                 startPoint = CGPoint.init(x: paddingStart, y: VIEW_HEIGHT - adjustPixelOffset)
-                endPoint = CGPoint.init(x: VIEW_WIDTH / 2 - adjustPixelOffset, y: VIEW_HEIGHT - paddingEnd)
+                endPoint = CGPoint.init(x: VIEW_WIDTH - paddingEnd, y: VIEW_HEIGHT - adjustPixelOffset)
             } else {
                 startPoint = CGPoint.init(x: paddingStart, y: VIEW_HEIGHT / 2 - adjustPixelOffset)
                 endPoint = CGPoint.init(x:VIEW_WIDTH - paddingEnd, y:VIEW_HEIGHT / 2 - adjustPixelOffset);
