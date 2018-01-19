@@ -21,9 +21,9 @@ class KRDrawLineView: UIView {
     var lineStyle:KRDrawLineViewStyle = KRDrawLineViewStyle.KRDrawLineViewStyleSolidLine
     var lineWidth:CGFloat?
     var lineColor:UIColor?
-    var paddingStart:CGFloat = 0.0
-    var paddingEnd:CGFloat = 0.0
-    var isBottomLine:Bool = false
+    @IBInspectable var paddingStart:CGFloat = 0.0
+    @IBInspectable var paddingEnd:CGFloat = 0.0
+    @IBInspectable var isBottomLine:Bool = false
     
     override init(frame: CGRect) {
         super.init(frame: frame)

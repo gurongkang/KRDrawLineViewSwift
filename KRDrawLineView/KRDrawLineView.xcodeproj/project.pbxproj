@@ -17,6 +17,8 @@
 		5492E7EC1FF7FB2200D0E169 /* KRDrawLineViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5492E7EB1FF7FB2200D0E169 /* KRDrawLineViewTests.swift */; };
 		5492E7F71FF7FB2200D0E169 /* KRDrawLineViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5492E7F61FF7FB2200D0E169 /* KRDrawLineViewUITests.swift */; };
 		5492E8051FF7FB3600D0E169 /* KRRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5492E8041FF7FB3600D0E169 /* KRRootViewController.swift */; };
+		54BA66D82011DBA30018E89A /* KRXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BA66D62011DBA30018E89A /* KRXibViewController.swift */; };
+		54BA66D92011DBA30018E89A /* KRXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54BA66D72011DBA30018E89A /* KRXibViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		5492E7F61FF7FB2200D0E169 /* KRDrawLineViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRDrawLineViewUITests.swift; sourceTree = "<group>"; };
 		5492E7F81FF7FB2200D0E169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5492E8041FF7FB3600D0E169 /* KRRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRRootViewController.swift; sourceTree = "<group>"; };
+		54BA66D62011DBA30018E89A /* KRXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRXibViewController.swift; sourceTree = "<group>"; };
+		54BA66D72011DBA30018E89A /* KRXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KRXibViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				54375CA6200FA1F600898952 /* KRCodeViewController.swift */,
+				54BA66D62011DBA30018E89A /* KRXibViewController.swift */,
+				54BA66D72011DBA30018E89A /* KRXibViewController.xib */,
 			);
 			path = TestViewController;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 				5492E7E11FF7FB2200D0E169 /* LaunchScreen.storyboard in Resources */,
 				5492E7DE1FF7FB2200D0E169 /* Assets.xcassets in Resources */,
 				5492E7DC1FF7FB2200D0E169 /* Main.storyboard in Resources */,
+				54BA66D92011DBA30018E89A /* KRXibViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +296,7 @@
 				54375CA7200FA1F600898952 /* KRCodeViewController.swift in Sources */,
 				5492E7D91FF7FB2200D0E169 /* ViewController.swift in Sources */,
 				5492E7D71FF7FB2200D0E169 /* AppDelegate.swift in Sources */,
+				54BA66D82011DBA30018E89A /* KRXibViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
