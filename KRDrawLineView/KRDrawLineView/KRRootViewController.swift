@@ -38,7 +38,12 @@ class KRRootViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if (indexPath.row == 0) {
-            let vc =  KRCodeViewController();
+            let vc =  KRCodeViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+        if (indexPath.row == 2) {
+            let vc = KRAddLineViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }
