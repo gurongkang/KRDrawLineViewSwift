@@ -18,12 +18,12 @@ class KRDrawLineView: UIView {
     let SINGLE_LINE_WIDTH  = (1 / UIScreen.main.scale)
     let SINGLE_LINE_ADJUST_OFFSET = ((1/UIScreen.main.scale)/2)
     
-    var lineStyle:KRDrawLineViewStyle = KRDrawLineViewStyle.KRDrawLineViewStyleSolidLine
-    var lineWidth:CGFloat?
-    var lineColor:UIColor?
-    @IBInspectable var paddingStart:CGFloat = 0.0
-    @IBInspectable var paddingEnd:CGFloat = 0.0
-    @IBInspectable var isBottomLine:Bool = false
+     var lineStyle:KRDrawLineViewStyle = KRDrawLineViewStyle.KRDrawLineViewStyleSolidLine
+     var lineWidth:CGFloat?
+     var lineColor:UIColor?
+     var paddingStart:CGFloat = 0.0
+     var paddingEnd:CGFloat = 0.0
+     var isBottomLine:Bool = false
     
     override init(frame: CGRect) {
         super.init(frame: frame)
